@@ -1,0 +1,76 @@
+.review-container {
+  max-width: 800px;
+  margin: 40px auto;
+  font-family: "Segoe UI", sans-serif;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.filters input,
+.filters select {
+  padding: 8px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex: 1;
+}
+
+.review-card {
+  background-color: #fdfdfd;
+  border-left: 5px solid #7c3aed;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.review-content {
+  font-style: italic;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.stars {
+  font-size: 18px;
+  color: #fbbf24;
+}
+
+.no-results {
+  color: #888;
+  font-style: italic;
+}
+
+.loader {
+  text-align: center;
+  font-size: 18px;
+}
+
+.error {
+  color: red;
+}
